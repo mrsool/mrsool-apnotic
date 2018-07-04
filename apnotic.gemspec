@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "net-http2", ">= 0.17", "< 2"
   spec.add_dependency "connection_pool", "~> 2.0"
 
-  spec.add_runtime_dependency "mrsool-net-http2"
+  spec.add_runtime_dependency "net-http2"
   
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake", "~> 10.0"
